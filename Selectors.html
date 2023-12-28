@@ -5,16 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SELECTORS</title>
     <style>
-        /* element selector */
+         /* Grouping Selector */
+        h1,h2,h3,h4{
+            color: indianred;
+        }
+         /* Element Selector */
         p{
             color: chocolate;
         }
-        /* Class Selector */
+         /* Class Selector */
         .para1{
             color: darkolivegreen;
         }
         .para11{
             background-color: aliceblue;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
         .para2{
             color: darkslategray;
@@ -22,7 +27,7 @@
         .para3{
             color: maroon;
         }
-        /* ID Selector */
+         /* ID Selector */
         #parid1{
             color: blue;
         }
@@ -32,11 +37,19 @@
         #parid3{
             color: darkred;
         }
+        /* Universal Selector */
+        *{
+            color: cornflowerblue;
+        }
     </style>
 </head>
 <body>
+    <h1>Frontend Development</h1>
+    <h2>HTML</h2>
+    <h3>CSS</h3>
+    <h4>JS</h4>
     <div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda recusandae ex iste ab, sunt, a mollitia atque ut doloremque eaque cumque laborum veniam doloribus, quia asperiores adipisci odio expedita dolorem.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span style="color: darkgreen;">recusandae ex iste ab</span>, sunt, a mollitia atque ut doloremque eaque cumque laborum veniam doloribus, quia asperiores adipisci odio expedita dolorem.</p>
     </div>
     <div>
         <p class="para1 para11">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus nihil illo nisi corrupti fugiat velit accusantium id veniam, quae natus cum nesciunt! Nesciunt laborum ab ipsam iste, voluptate placeat reprehenderit.</p>
